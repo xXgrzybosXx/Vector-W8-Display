@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(88, 88, 88);
+    color: orange;
+}
+
+#screen{
+    background-color: black;
+    width: 1000px;
+    height: 500px;
+}
+
+/* Styles for everyting in top row*/
+
+#topRow{
+    width: 100%;
+    border-width: 0px 0px 1px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+}
+
+#topRow>a{
+    width: 25%;
+}
+
+.blinker{
+    width: 8%;
+}
+
+#odometer{
+    text-align: left;
+}
+
+#clock{
+    width: auto;
+}
+
+/* Styles for everyting in middle row*/
+
+#midSection{
+    width: 100%;
+    height: 91%;
+    display: inline-flex;
+}
+
+#gearIndicator{
+    width: 8%;
+    border-right: 1px solid;
+}
+
+#currentMenu{
+    width: 84%;
+}
+
+#warningLights{
+    width: 8%;
+    border-left: 1px solid;
+}
+
+/* Styles for everyting in bottom row*/
+
+#bottomRow{
+    width: 100%;
+    border-width: 1px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+}
+
+#bottomRow>a{
+    width: 25%;
+}
