@@ -46,8 +46,26 @@ body{
 }
 
 #gearIndicator{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
     width: 8%;
     border-right: 1px solid;
+}
+
+.gear{
+    display: flex;
+    height: max-content;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+}
+
+#currentGear{
+    background-color: orange;
+    color: black;
 }
 
 #currentMenu{
